@@ -14,6 +14,6 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-DOMAIN-SUFFIX:wolai.com
-DOMAIN-SUFFIX:pexels.com
-DOMAIN-SUFFIX:abskoop.com
+DOMAIN-SUFFIX,wolai.com
+DOMAIN-SUFFIX,pexels.com
+DOMAIN-SUFFIX,abskoop.com

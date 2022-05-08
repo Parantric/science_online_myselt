@@ -14,4 +14,5 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-DOMAIN-SUFFIX：nexon.com
+DOMAIN-SUFFIX:nexon.com
+DOMAIN-KEYWORD:nexon

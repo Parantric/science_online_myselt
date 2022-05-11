@@ -1,5 +1,4 @@
-# science_online_myselt
-备份自己科学上网的相关配置
+# science_online_myselt  备份自己科学上网的相关配置
 
 
 ### 本地调用URL形式
@@ -26,3 +25,8 @@ https://github.com/tindy2013/subconverter/blob/master/README-cn.md
    清理本地路径下的 `cache`目录（），全部删除，默认优先应有本地的缓存，导致更新并没有立即触发应用，
 
 > 自定义 `ruleset` 的时候，不要忘记**规则是按照从上往下顺序匹配到一个就应用的原则**。
+
+
+
+### 关于 `github readme` 文件的书写格式，官方规范
+https://docs.github.com/cn/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax

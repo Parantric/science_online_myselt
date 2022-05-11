@@ -14,3 +14,6 @@
 
 >   规则的顺序是按照从上往下的顺序匹配，一个网站的网址匹配到即适用，所以，规则的书写顺序决定了网址匹配的优先级。
 
+## :pushpin: 参考
+
+-   [`subconverter` 官方文档（中文）](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)

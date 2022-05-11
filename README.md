@@ -6,6 +6,9 @@
 
 http://127.0.0.1:25500/getprofile?name=%NAME%&token=%TOKEN%
 
+eg:
+`http://127.0.0.1:25500/getprofile?name=profiles/pref.ini&token=justdoit`
+
 调用参数	必要性	  示例	解释
 name	    必要	    profiles/formyairport.ini	指配置档案的存储位置(可使用基于pref 配置文件的相对位置)
 token	     必要	     passwd	为了安全考虑必须设置token（详见 配置文件 中 [common] 部分 对 api_access_token 的描述）

@@ -9,6 +9,7 @@ http://127.0.0.1:25500/getprofile?name=%NAME%&token=%TOKEN%
 - `%NAME%`：占位符，表示配置文件，默认是profiles目录下的文件
 
 - `%TOKEN%`：占位符，表示自定义的密码，默认在`subconverter 解压目录下的 pref.toml 文件中`
+对应的参数项为：`api_access_token = "xxx"`，注意：双引号。
 
 eg:
 `http://127.0.0.1:25500/getprofile?name=profiles/pref.ini&token=justdoit`

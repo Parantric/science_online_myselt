@@ -6,6 +6,7 @@
 -   :bookmark:`UnitedStatesList.list`：已有规则配置之外美国网站的规则配置
 -   :bookmark:`ChinaOther.list`：已有规则配置之外的国内网站规则配置
 -   :bookmark:`HongKongOther.list`：已有规则配置之外的香港网站规则配置
+-   :bookmark: `Jetbrains.list` ：已有规则配置之外的 `Jetbrains` 相关规则配置
 
 >   以上文件均应在 `subconverter` 解压目录下的 `rules` 文件夹下
 

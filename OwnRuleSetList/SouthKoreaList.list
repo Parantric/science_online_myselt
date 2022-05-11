@@ -16,5 +16,5 @@
 
 DOMAIN-SUFFIX,nexon.com
 DOMAIN-KEYWORD,nexon
-# 设置韩服洛奇英雄传论坛官网（https://heroes.inven.co.kr/）规则
 DOMAIN-KEYWORD,heroes
+DOMAIN,heroes.inven.co.kr

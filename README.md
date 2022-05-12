@@ -1,4 +1,6 @@
-![](https://img.shields.io/badge/Clash%20for%20Window-V0.19.17-%234f8ef5)
+![](https://img.shields.io/badge/Clash%20for%20Window-V0.19.17-%234f8ef5) ![](https://img.shields.io/badge/By-Parantric-green)
+
+
 
 ![](https://raw.githubusercontent.com/Parantric/picture-bed/main/202205120701166.jpg)
 

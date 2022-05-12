@@ -1,5 +1,7 @@
 # 自用 clash for window 配置
 
+![](https://img.shields.io/badge/Clash%20for%20Window-V0.19.17-%234f8ef5)
+
 ![](https://raw.githubusercontent.com/Parantric/picture-bed/main/202205120701166.jpg)
 
 ## :bookmark_tabs:`ruleset` 文件说明

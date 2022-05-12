@@ -1,23 +1,37 @@
-# 自用 clash for window 配置
-
 ![](https://img.shields.io/badge/Clash%20for%20Window-V0.19.17-%234f8ef5)
 
 ![](https://raw.githubusercontent.com/Parantric/picture-bed/main/202205120701166.jpg)
 
-## :bookmark_tabs:`ruleset` 文件说明
 
--   :bookmark:`SouthKoreaList.list` ：已有规则配置之外韩国网站的规则配置
--   :bookmark:`UnitedStatesList.list`：已有规则配置之外美国网站的规则配置
--   :bookmark:`ChinaOther.list`：已有规则配置之外的国内网站规则配置
--   :bookmark:`HongKongOther.list`：已有规则配置之外的香港网站规则配置
--   :bookmark: `Jetbrains.list` ：已有规则配置之外的 `Jetbrains` 相关规则配置
+# ✍️science_online_myselt  备份自己科学上网的相关配置
 
->   以上文件均应在 `subconverter` 解压目录下的 `rules` 文件夹下
 
-## :reminder_ribbon: 特殊说明
+### 📋本地调用URL形式
 
->   规则的顺序是按照从上往下的顺序匹配，一个网站的网址匹配到即适用，所以，规则的书写顺序决定了网址匹配的优先级。
+http://127.0.0.1:25500/getprofile?name=%NAME%&token=%TOKEN%
 
-## :pushpin: 参考
+- `%NAME%`：占位符，表示配置文件，默认是profiles目录下的文件
 
--   [`subconverter` 官方文档（中文）](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)
+- `%TOKEN%`：占位符，表示自定义的密码，默认在`subconverter 解压目录下的 pref.toml 文件中`
+对应的参数项为：`api_access_token = "xxx"`，注意：双引号。
+
+eg:
+`http://127.0.0.1:25500/getprofile?name=profiles/pref.ini&token=justdoit`
+
+调用参数	必要性	  示例	解释
+name	    必要	    profiles/formyairport.ini	指配置档案的存储位置(可使用基于pref 配置文件的相对位置)
+token	     必要	     passwd	为了安全考虑必须设置token（详见 配置文件 中 [common] 部分 对 api_access_token 的描述）
+
+### 📌参考官网
+https://github.com/tindy2013/subconverter/blob/master/README-cn.md
+
+### ❗️本地调用需要注意的点（结合自己使用）
+> 调用本地接口更新订阅时，如果发现自己添加的规则或者自己修改的项目在更新后并没有应用，并且未发现错误：
+> 清理本地路径下的 `cache`目录（），全部删除，默认优先应有本地的缓存，导致更新并没有立即触发应用，
+
+> 自定义 `ruleset` 的时候，不要忘记**规则是按照从上往下顺序匹配到一个就应用的原则**。
+
+
+
+### 📑关于 `github readme` 文件的书写格式，官方规范
+https://docs.github.com/cn/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax

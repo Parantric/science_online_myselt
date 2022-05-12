@@ -1,6 +1,6 @@
 # 自用 clash for window 配置
 
-![](https://img.shields.io/badge/Clash%20for%20Window-V0.19.17-%234f8ef5)
+![](https://img.shields.io/badge/Clash%20for%20Window-V0.19.17-%234f8ef5) ![](https://img.shields.io/badge/By-Parantric-green)
 
 ![](https://raw.githubusercontent.com/Parantric/picture-bed/main/202205120701166.jpg)
 
@@ -20,4 +20,5 @@
 
 ## :pushpin: 参考
 
--   [`subconverter` 官方文档（中文）](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)
+
+## :books:  关于 `github readme` 文件的书写格式，官方规范

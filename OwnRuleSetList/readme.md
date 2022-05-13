@@ -21,4 +21,4 @@
 ## :pushpin: 参考
 
 
-## :books:  关于 `github readme` 文件的书写格式，官方规范
+## [subconverter GitHub 官网说明](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)

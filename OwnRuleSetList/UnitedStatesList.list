@@ -1,6 +1,7 @@
 # 自定义美国个人常用域名规则
 # Creator：Parantric Lim
-# Date：2022年5月11日22:55:31
+# Create Date：2022年5月11日22:55:31
+# Modify Date：2022年5月20日02:37:19
 #
 # DOMAIN-SUFFIX：域名后缀匹配
 # DOMAIN：域名匹配
@@ -14,8 +15,9 @@
 # RULE-SET：Rule Provider规则匹配
 # MATCH：全匹配
 
-; DOMAIN-SUFFIX,nexon.com
-; DOMAIN-KEYWORD,nexon
-; DOMAIN-KEYWORD,inven.co.kr
-; https://getemoji.com/ 网站配置规则
+# https://getemoji.com/ 网站配置规则
 DOMAIN,getemoji.com
+DOMAIN,img.shields.io
+
+# Spring 官网配置规则
+DOMAIN-SUFFIX,spring.io

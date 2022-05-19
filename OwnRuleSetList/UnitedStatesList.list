@@ -24,3 +24,5 @@ DOMAIN-SUFFIX,spring.io
 
 # Gradle 域名配置规则
 DOMAIN-SUFFIX,gradle.org
+DOMAIN-SUFFIX,gradle.com
+DOMAIN-KEYWORD,gradle
